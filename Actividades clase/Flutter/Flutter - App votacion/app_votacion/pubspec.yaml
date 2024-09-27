@@ -1,0 +1,19 @@
+name: flutter_app_votacion
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+flutter:
+  fonts:
+    - family: Shadows Into Light
+      fonts:
+        - asset: assets/fonts/ShadowsIntoLight-Regular.ttf
+
+  assets:
+    - assets/images/yes.png
+    - assets/images/no.png
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.2.8

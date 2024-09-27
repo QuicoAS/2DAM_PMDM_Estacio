@@ -9,17 +9,16 @@ environment:
   sdk: ">=2.19.4 <4.0.0"
 
 dependencies:
+  english_words: ^4.0.0
   flutter:
     sdk: flutter
-
-  english_words: ^4.0.0
+  go_router: ^14.2.7
   provider: ^6.0.0
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
